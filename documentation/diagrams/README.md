@@ -9,32 +9,32 @@
 ### 1. Диаграмма активности<a name="1"></a>
 Диаграмма активности представляет собой следующую диаграмму: 
 
-![Диаграмма активности](https://github.com/Archeex/itNotes/blob/master/documentation/diagrams/images/ActivityDiagram.png)
+![Диаграмма активности](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/ActivDia.jpg)
 
 ### 2. Диаграмма классов<a name="2"></a>
 Диаграмма классов представляет собой следующую диаграмму: 
 
-![Диаграмма классов](https://github.com/Archeex/itNotes/blob/master/documentation/diagrams/images/ClassesDiagram.png)
+![Диаграмма классов](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/ClassDi.jpg)
 
 ### 3. Диаграмма последовательности<a name="3"></a>
 Диаграмма последовательности представляет собой следующую диаграмму: 
 
-![Диаграмма последовательности](https://github.com/Archeex/itNotes/blob/master/documentation/diagrams/images/SequenceDiagram.png)
+![Диаграмма последовательности](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/PoslDIA.png)
 
 ### 4. Диаграмма прецедентов<a name="4"></a>
 Диаграмма прецедентов представляет собой следующую диаграмму: 
 
-![Диаграмма прецедентов](https://github.com/Archeex/itNotes/blob/master/documentation/diagrams/images/UseCaseDiagram.png)
+![Диаграмма прецедентов](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/UseCase.jpg)
 
 ### 5. Диаграмма развертывания<a name="5"></a>
 Диаграмма развертывания представляет собой следующую диаграмму: 
 
-![Диаграмма развертывания](https://github.com/Archeex/itNotes/blob/master/documentation/diagrams/images/DeploymentDiagram.png)
+![Диаграмма развертывания](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/DepDi.png)
 
 ### 6. Диаграмма состояний<a name="6"></a>
 Диаграмма состояний представляет собой следующую диаграмму: 
 
-![Диаграмма состояний](https://github.com/Archeex/itNotes/blob/master/documentation/diagrams/images/StatesDiagram.png)
+![Диаграмма состояний](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/SostDi.jpg)
 
 ### 7. Поток событий<a name="7"></a>
 #### 7.1 Глоссарий
@@ -46,31 +46,18 @@
 ##### 7.2.1 Выбрать страницу
 
 1. Начало основного потока.
-2. Пользователь нажимает на кнопку перехода к следующей/предыдущей странице.
-3. Если текущая страница не является крайней, запускаем альтернативный поток.
-4. Переходим к следующей/предыдущей странице.
-5. Завершаем альтернативный поток.
-6. Если текущая страница является крайней, выходим из функции.
-7. Конец основного потока.
+2. Вывод окна регистрации.
+3. Ввод данных.
+4. Запрос на сервер.
+5. Подтверждение на сервере.
+6. Конец основного потока.
 
 ##### 7.2.2 Открыть полную версию новости в браузере
 
 1. Начало основного потока.
-2. Пользователь нажимает на заголовок новости/поста.
-3. Открывается браузер с выбранной новостью/постом.
+2. Пользователь заходит на основное приложение.
+3. Открывается список фотографов.
 4. Конец основного потока.
 
-##### 7.2.3 Перейти на главную страницу сайта-источника
 
-1. Начало основного потока.
-2. Пользователь нажимает на кнопку перехода на главную страницу сайта-источника.
-3. Открывается браузер с главной страницей выбранного сайта-источника.
-4. Конец основного потока.
-
-##### 7.2.4 Выбрать сайт источник для показа новостей/постов
-
-1. Начало основного потока.
-2. Пользователь выбирает интересующий его сайт-источник.
-3. Обновляется главное окно приложения и пользователю предоставляется набор новостей/постов с выбранного сайта-источника.
-4. Конец основного потока.
 
