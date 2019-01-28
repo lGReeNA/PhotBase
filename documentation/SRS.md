@@ -32,6 +32,7 @@ Photographers Database - это десктопное приложение, ко�
 Окно регистрации.
 ![](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/2.jpg)
 Окно для удаления пользователя.
+
 ![](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/3.jpg)
 ### <a name="P2.2">2.2. Характеристики пользователей</a>
 #### <a name="P2.2.1">2.2.1. Аудитория приложения</a>
