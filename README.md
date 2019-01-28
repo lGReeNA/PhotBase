@@ -1,4 +1,5 @@
 #### Photographers Database.
+![...](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/1.jpg)
 • habr.com [(habr.com)](https://habr.com)
 
 • itproger.com [(itproger.com)](https://itproger.com)
