@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="772.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.windows.Controllers.PhotographersListController">
+   <children>
+      <AnchorPane layoutX="37.0" layoutY="39.0" prefHeight="695.0" prefWidth="843.0">
+         <children>
+            <TableView fx:id="table" layoutX="23.0" layoutY="58.0" prefHeight="579.0" prefWidth="800.0">
+              <columns>
+                  <TableColumn fx:id="id" prefWidth="47.0" text="id" />
+                <TableColumn fx:id="surname" prefWidth="123.0" text="Фамилия" />
+                <TableColumn fx:id="name" prefWidth="90.0" text="Имя" />
+                  <TableColumn fx:id="stage" minWidth="4.0" prefWidth="134.0" text="Стаж" />
+                  <TableColumn fx:id="portfolio" prefWidth="275.0" text="Ссылка на портфолио" />
+                  <TableColumn fx:id="location_" minWidth="2.0" prefWidth="130.0" text="Города" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="out" layoutX="776.0" layoutY="738.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" text="Выход" />
+      <Label fx:id="label" layoutX="14.0" layoutY="733.0" prefHeight="35.0" prefWidth="199.0" text="Фотографов: ">
+         <font>
+            <Font name="Arimo" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
