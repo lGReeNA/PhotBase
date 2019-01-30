@@ -9,12 +9,12 @@
 ### 1. Диаграмма активности<a name="1"></a>
 Диаграмма активности представляет собой следующую диаграмму: 
 
-![Диаграмма активности](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/ActivDia.jpg)
+![Диаграмма активности](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/10.jpg)
 
 ### 2. Диаграмма классов<a name="2"></a>
 Диаграмма классов представляет собой следующую диаграмму: 
 
-![Диаграмма классов](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/8.jpg)
+![Диаграмма классов](https://github.com/lGReeNA/PhotBase/blob/master/documentation/diagrams/images/9.jpg)
 
 ### 3. Диаграмма последовательности<a name="3"></a>
 Диаграмма последовательности представляет собой следующую диаграмму: 
